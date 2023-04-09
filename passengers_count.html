@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINE JS</title>
+    <style>
+        button{
+            color: violet;
+            background-color: black;
+            border-radius: 10px;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+            padding: 40px;
+            height: 20px;
+            width: 300px;
+            cursor: pointer;
+        }
+        p{
+            margin: 20px;
+            font-size: 30px;
+            color: blue;
+
+        }
+        div{
+            border: 4px solid rgb(187, 80, 80);
+            background-color: beige;
+            width: 500px;
+            padding-left: 50px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <h1>People Entered:</h1>
+    <p id="welcome-el">0</p>
+    <button id="increment-btn" onclick="increment()">Increment</button>
+    <button id="save-btn" onclick="save()">Save</button>
+    <p id="save-el">Preveious Entries:</p>
+    <script src="passengers.js"></script>
+</div>
+</body>
+</html>
